@@ -41,6 +41,20 @@
 			</dependency>
 		</dependencies>
 	</dependencyManagement>
+	<distributionManagement>
+		<repository>
+			<id>nexus</id>
+			<name>JaydnCorp RELEASES Nexus Repository</name>
+			<url>http://192.168.56.201:5000/repository/app1-repo/</url>
+		</repository>
+
+		<snapshotRepository>
+		<id>nexus</id>
+			<name>JaydnCorp SNAPSHOT Nexus Repository</name>
+			<url>http://192.168.56.201:5000/repository/app1-repo/</url>
+		</snapshotRepository>
+
+
 
 	<dependencies>
 		<dependency>
